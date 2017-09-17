@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">PayHua</string>
+    <string name="user_profile">Profile</string>
+    <string name="settings">Settings</string>
+    <string name="history">History</string>
+    <string name="pay_now">Pay Now</string>
+</resources>
