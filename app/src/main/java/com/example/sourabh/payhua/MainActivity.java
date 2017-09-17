@@ -50,7 +50,9 @@ public class MainActivity extends AppCompatActivity {
 
             // one of the four navigator's reference will be passed to this method.
             @Override
-            public boolean onNavigationItemSelected(MenuItem item) {
+            public boolean onNavigationItemSelected(@NonNull MenuItem  item) {
+
+                item.setChecked(true);
 
                 // get the ID of this item.
                 switch (item.getItemId()) {

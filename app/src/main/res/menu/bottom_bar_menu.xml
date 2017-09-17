@@ -8,7 +8,8 @@
         android:enabled="true"
         android:icon="@drawable/ic_payment_black_24dp"
         android:title="@string/pay_now"
-        app:showAsAction="ifRoom"/>
+        app:showAsAction="ifRoom"
+        android:checked="false" />
 
 
     <item
@@ -16,20 +17,23 @@
         android:enabled="true"
         android:icon="@drawable/ic_account_circle_black_24dp"
         android:title="@string/user_profile"
-        app:showAsAction="ifRoom" />
+        app:showAsAction="ifRoom"
+        android:checked="false"/>
 
     <item
         android:id="@+id/action_settings"
         android:enabled="true"
         android:icon="@drawable/ic_settings_black_24dp"
         android:title="@string/settings"
-        app:showAsAction="ifRoom" />
+        app:showAsAction="ifRoom"
+        android:checked="false" />
 
     <item
         android:id="@+id/action_history"
         android:enabled="true"
         android:icon="@drawable/ic_history_black_24dp"
         android:title="@string/history"
-        app:showAsAction="ifRoom" />
+        app:showAsAction="ifRoom"
+        android:checked="false" />
 
 </menu>

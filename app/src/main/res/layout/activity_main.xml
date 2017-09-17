@@ -14,7 +14,6 @@
         android:layout_height="0dp"
         android:layout_weight="0.08"
         android:background="?attr/colorPrimary"
-        android:elevation="4dp"
         android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
         app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
 
@@ -33,13 +32,9 @@
         android:layout_height="0dp"
         android:layout_weight="0.08"
         android:id="@+id/bottom_bar"
-        android:layout_alignParentBottom="true"
-        app:itemIconTint="#8d989a"
+        app:itemIconTint="@drawable/nav_item_color_state"
         app:itemBackground="@color/colorPrimary"
         app:itemTextColor="@color/colorText"
-        app:menu="@menu/bottom_bar_menu"
-        >
-
-    </android.support.design.widget.BottomNavigationView>
+        app:menu="@menu/bottom_bar_menu"/>
 
 </LinearLayout>
